@@ -1,0 +1,37 @@
+class Person {
+  String name;
+  int age;
+  
+//   Person({String inputName, int age=30}) {
+//     name = inputName;
+//     this.age = age;
+    
+//   }
+  
+  Person({this.name , this.age=30});
+  
+  
+}
+
+
+int addNumbers(num1,num2) {
+  
+  return num1 + num2;
+  
+}
+
+void main() {
+ 
+  //var p1 =  new Person(inputName:'Max'); //create an instance of the class, aka instantiation and store in p1
+  //print(p1.age);
+  var p2 = new Person(age:31, name: 'Manu');
+  
+  //print(p1.name);
+  print(p2.name);
+  
+  var firstResult = addNumbers(1,2);
+  
+//   print(addNumbers(1,4));
+//   print(firstResult + 1);
+
+}
